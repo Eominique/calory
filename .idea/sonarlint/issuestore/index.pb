@@ -8,8 +8,6 @@ A
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-F
-app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
 ;
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 X
@@ -22,8 +20,6 @@ v
 Fapp/src/androidTest/java/com/example/calory/ExampleInstrumentedTest.kt,f\8\f84648673ff0071f1cfc82b30beb336e5ed07cb8
 g
 7app/src/test/java/com/example/calory/ExampleUnitTest.kt,f\f\ff746c904d772e3afbff389a873a59e510d26ca1
-d
-4app/src/main/java/com/example/calory/MainActivity.kt,5\9\596441c6da865bdb0d57937a3ae7dec57ba615bc
 f
 6app/src/main/java/com/example/calory/ui/theme/Shape.kt,6\7\678c353280e47999ebe474baa589dfe62894883c
 f
@@ -116,5 +112,23 @@ Ntracker/tracker_data/src/test/java/com/example/tracker_data/ExampleUnitTest.kt
 Rtracker/tracker_domain/src/test/java/com/example/tracker_domain/ExampleUnitTest.kt,d\1\d1983fb841e14c101a2096935316073414396c6e
 Ž
 ^tracker/tracker_presentation/src/test/java/com/example/tracker_presentation/ExampleUnitTest.kt,2\c\2c50e2060362eec45edd6ea97f7b2928d512421f
-I
-buildSrc/build.gradle.kts,d\9\d90b697280fada81e52ec92d24725920f1cb087b
+R
+"buildSrc/src/main/java/AndroidX.kt,5\b\5b6514c230c5fecbcf2cb3a57826f66cc28d9b36
+O
+buildSrc/src/main/java/Build.kt,9\0\905101fa6ddc530f0f0863e49af7ab005cb6ded0
+N
+buildSrc/src/main/java/Coil.kt,f\c\fcee0c9dd9b953942fbe416e05fdafa79f2a7cc2
+Q
+!buildSrc/src/main/java/Compose.kt,d\0\d0ccf9538eee5aa412ee83d4a2133a6f31f5b98e
+P
+ buildSrc/src/main/java/Google.kt,f\0\f0fc9040d2e8d50946b86097caff15f8ea9cac66
+P
+ buildSrc/src/main/java/Kotlin.kt,d\c\dcc2864be7131e2d7177579fd7f5053c7cd2c9a0
+O
+buildSrc/src/main/java/Moshi.kt,9\9\999097668e2b294f848212fe5aa23f2ea430f84b
+R
+"buildSrc/src/main/java/Retrofit.kt,6\c\6ccbf65f6ff4383cfd2f83fe446d5a681ff7187b
+N
+buildSrc/src/main/java/Room.kt,5\3\5391cbe6fc8210d412a8e2e4d863c63315459ea1
+Q
+!buildSrc/src/main/java/Testing.kt,3\b\3b29b036070306646d6e9146faba75d9cf46a956
