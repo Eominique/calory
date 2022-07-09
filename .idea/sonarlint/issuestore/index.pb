@@ -170,14 +170,10 @@ p
 @app/src/main/java/com/example/calory/navigation/NavController.kt,6\2\6211478b0867b62211a23c61a8df74ff36042ba3
 v
 Fcore/core_base/src/main/java/com/example/core_base/navigation/Route.kt,0\4\04f62ab8ca767ae49e0e3c0fd83a1cc509cb1e71
-r
-Bcore/core_base/src/main/java/com/example/core_base/util/UiEvent.kt,8\9\89497115d278f5f9a7af9ec8df76a1d56c9b41bf
 ù
 monboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/welcome/WelcomeScreen.kt,7\b\7ba10f10623ddd03b4b786a14bce17407a902e59
 y
 Icore/core_base/src/main/java/com/example/core_base/model/ActivityLevel.kt,b\3\b30a663965cebc23337d170dd5e16ce74aec5b56
-d
-4app/src/main/java/com/example/calory/di/AppModule.kt,b\c\bc2ae57f8f975ada8b53de510b8779634dfee4e1
 x
 Hcore/core_base/src/main/java/com/example/core_base/DefaultPreferences.kt,0\6\06c4bb4794e2067db073b52a10001297cae733b7
 r
