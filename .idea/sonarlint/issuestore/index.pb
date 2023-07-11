@@ -122,8 +122,6 @@ P
  buildSrc/src/main/java/Google.kt,f\0\f0fc9040d2e8d50946b86097caff15f8ea9cac66
 P
  buildSrc/src/main/java/Kotlin.kt,d\c\dcc2864be7131e2d7177579fd7f5053c7cd2c9a0
-O
-buildSrc/src/main/java/Moshi.kt,9\9\999097668e2b294f848212fe5aa23f2ea430f84b
 R
 "buildSrc/src/main/java/Retrofit.kt,6\c\6ccbf65f6ff4383cfd2f83fe446d5a681ff7187b
 N
@@ -210,3 +208,17 @@ x
 Hcore/core_base/src/main/java/com/example/core_base/DefaultPreferences.kt,0\6\06c4bb4794e2067db073b52a10001297cae733b7
 a
 1app/src/main/java/com/example/calory/CaloryApp.kt,9\6\968edd8fa71f78ed67bd84fa51cf6b0c9e5b570f
+Ÿ
+oonboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/activity/ActivityScreen.kt,3\0\30ee97f3f2f90837566e591fe7483d6972e9f2e9
+¢
+ronboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/activity/ActivityViewModel.kt,f\0\f0e3404509705f21a77f6df6fdccca7d53e5c975
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+š
+jonboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/goal/GoalViewModel.kt,8\5\85c75d2cd91cbaf711ec9ddf2ceac38b74bda2e0
+r
+Bcore/core_base/src/main/java/com/example/core_base/util/UiEvent.kt,8\9\89497115d278f5f9a7af9ec8df76a1d56c9b41bf
+—
+gonboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/goal/GoalScreen.kt,3\2\32120727209bf29c5df696d393db86706c2a9f44
+O
+buildSrc/src/main/java/Moshi.kt,9\9\999097668e2b294f848212fe5aa23f2ea430f84b
