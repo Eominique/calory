@@ -126,8 +126,6 @@ R
 "buildSrc/src/main/java/Retrofit.kt,6\c\6ccbf65f6ff4383cfd2f83fe446d5a681ff7187b
 N
 buildSrc/src/main/java/Room.kt,5\3\5391cbe6fc8210d412a8e2e4d863c63315459ea1
-Q
-!buildSrc/src/main/java/Testing.kt,3\b\3b29b036070306646d6e9146faba75d9cf46a956
 W
 'buildSrc/src/main/java/ProjectConfig.kt,e\5\e5f1e6ec4b7a152d03df0415f85dba0bfaeb5c2a
 I
@@ -152,8 +150,6 @@ c
 3onboarding/onboarding_presentation/build.gradle.kts,3\d\3dc72134259148b19aafb0c2c5f1be6bc2f1c763
 U
 %tracker/tracker_data/build.gradle.kts,a\9\a9d43719dfbf70f146038002e29f7113596a50d7
-W
-'tracker/tracker_domain/build.gradle.kts,c\1\c1cfc2154ed02289045f55eaefd4995fdd4871d9
 ]
 -tracker/tracker_presentation/build.gradle.kts,1\8\181c64776980fe82e7a2da1386a50ff6b7f253c7
 @
