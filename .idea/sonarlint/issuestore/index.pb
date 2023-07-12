@@ -222,3 +222,13 @@ Bcore/core_base/src/main/java/com/example/core_base/util/UiEvent.kt,8\9\8949711
 gonboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/goal/GoalScreen.kt,3\2\32120727209bf29c5df696d393db86706c2a9f44
 O
 buildSrc/src/main/java/Moshi.kt,9\9\999097668e2b294f848212fe5aa23f2ea430f84b
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+§
+wonboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/nutrient_goal/NutrientGoalEvent.kt,b\0\b0a07d09506b8ee35673e2392d765a51ca658c0c
+§
+wonboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/nutrient_goal/NutrientGoalState.kt,8\0\80a4abb7f17c0ee7b0736ebb18281dad10c2fff1
+«
+{onboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/nutrient_goal/NutrientGoalViewModel.kt,1\0\101f48407ccad26e9eb0204d31ccfe2971618b4a
+–
+fonboarding/onboarding_domain/src/main/java/com/example/onboarding_domain/use_case/ValidateNutrients.kt,9\1\9130ab0504bad1cfb713516d63de1a84fd32eaa3
