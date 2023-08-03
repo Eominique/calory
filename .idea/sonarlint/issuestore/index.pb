@@ -168,8 +168,6 @@ r
 Bcore/core_base/src/main/java/com/example/core_base/model/Gender.kt,2\4\24eee36d71442da7fb8e16c36cdf7432ce2a6ae4
 t
 Dcore/core_base/src/main/java/com/example/core_base/model/GoalType.kt,1\7\17ecef86d7d5d4860e41696023f3ddc313affa62
-}
-Mcore/core_base/src/main/java/com/example/core_base/preferences/Preferences.kt,1\c\1c8531bdd8500f572866dcb026c99c70e1cb2f94
 t
 Dcore/core_base/src/main/java/com/example/core_base/model/UserInfo.kt,c\3\c3e6cef77683009d99a20b6edb76579b99fc3394
 û
@@ -184,8 +182,6 @@ sonboarding/onboarding_presentation/src/main/java/com/example/onboarding_present
 eonboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/age/AgeScreen.kt,e\6\e668dce3eacbba0c38958bb6f387795f8c56eb6c
 ò
 honboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/age/AgeViewModel.kt,1\a\1a82437d38c78683cee78b701ad0c2f6fd14b815
-d
-4app/src/main/java/com/example/calory/di/AppModule.kt,b\c\bc2ae57f8f975ada8b53de510b8779634dfee4e1
 ~
 Ncore/core_base/src/main/java/com/example/core_base/use_case/FilterOutDigits.kt,f\8\f8982adebcfde47055d7a826f2fea00904b1a566
 q
@@ -200,8 +196,6 @@ nonboarding/onboarding_presentation/src/main/java/com/example/onboarding_present
 konboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/height/HeightScreen.kt,1\a\1a62945f7cc141d8caf75333d8999deb253af3ee
 ù
 monboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/welcome/WelcomeScreen.kt,7\b\7ba10f10623ddd03b4b786a14bce17407a902e59
-x
-Hcore/core_base/src/main/java/com/example/core_base/DefaultPreferences.kt,0\6\06c4bb4794e2067db073b52a10001297cae733b7
 a
 1app/src/main/java/com/example/calory/CaloryApp.kt,9\6\968edd8fa71f78ed67bd84fa51cf6b0c9e5b570f
 ü
@@ -270,3 +264,17 @@ Ztracker/tracker_data/src/main/java/com/example/tracker_data/remote/di/TrackerDa
 _tracker/tracker_domain/src/main/java/com/example/tracker_domain/repository/TrackerRepository.kt,1\5\15a7a4f53b9a31942182d9d4ecb7e55ff7fba859
 ã
 [tracker/tracker_data/src/main/java/com/example/tracker_data/remote/TrackerRepositoryImpl.kt,7\5\755e5c5adca98a94c96ff2ef8919dd02c583f989
+í
+btracker/tracker_domain/src/main/java/com/example/tracker_domain/use_case/CalculateMealNutrients.kt,f\d\fd0fb65f2c0d6c2ae20f3d126728a2bd33b1020d
+ç
+]tracker/tracker_domain/src/main/java/com/example/tracker_domain/use_case/DeleteTrackedFood.kt,6\5\65cce4dd1bf2071a85cb286bdede3885d362017e
+ã
+[tracker/tracker_domain/src/main/java/com/example/tracker_domain/use_case/GetFoodsForDate.kt,4\2\4256108453fa4af07fc013930e32200ef602d06a
+Ü
+Vtracker/tracker_domain/src/main/java/com/example/tracker_domain/use_case/SearchFood.kt,7\4\74a7c305c3bfc4995859e7fe7acaf97e218bd8e4
+Ü
+Vtracker/tracker_domain/src/main/java/com/example/tracker_domain/TrackerDomainModule.kt,8\0\8079a4261aeeb25919f4f1349499658467779ee0
+ã
+[tracker/tracker_domain/src/main/java/com/example/tracker_domain/use_case/TrackerUseCases.kt,c\a\cad3a40611611376b71450916b6d797303f498ec
+Ö
+Utracker/tracker_domain/src/main/java/com/example/tracker_domain/use_case/TrackFood.kt,2\2\22cdd3dde3686137ba2e9e12e1875781ca36f6a9
