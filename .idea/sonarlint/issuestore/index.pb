@@ -12,16 +12,12 @@ A
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
-f
-6app/src/main/java/com/example/calory/ui/theme/Color.kt,f\3\f307d9491f8b76e8c2e61846428d615f28b51ec7
 v
 Fapp/src/androidTest/java/com/example/calory/ExampleInstrumentedTest.kt,f\8\f84648673ff0071f1cfc82b30beb336e5ed07cb8
 g
 7app/src/test/java/com/example/calory/ExampleUnitTest.kt,f\f\ff746c904d772e3afbff389a873a59e510d26ca1
 f
 6app/src/main/java/com/example/calory/ui/theme/Shape.kt,6\7\678c353280e47999ebe474baa589dfe62894883c
-f
-6app/src/main/java/com/example/calory/ui/theme/Theme.kt,b\6\b68a3de2d5ba796e4b6e425a9eda415feea8ec48
 e
 5app/src/main/java/com/example/calory/ui/theme/Type.kt,a\b\abfef6ed1c12662d6f44b10d7a62ffa97ffed93c
 O
@@ -154,8 +150,6 @@ U
 -tracker/tracker_presentation/build.gradle.kts,1\8\181c64776980fe82e7a2da1386a50ff6b7f253c7
 @
 build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
-l
-<core/core_ui/src/main/java/com/example/core_ui/Dimensions.kt,d\d\dd6abbadbcf9f03dc76b7498f0819ab8d456525e
 Q
 !buildSrc/src/main/java/Modules.kt,c\b\cb9e50bf2267dfa8f788615fdefe24c787975087
 p
@@ -222,8 +216,6 @@ wonboarding/onboarding_presentation/src/main/java/com/example/onboarding_present
 {onboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/nutrient_goal/NutrientGoalViewModel.kt,1\0\101f48407ccad26e9eb0204d31ccfe2971618b4a
 –
 fonboarding/onboarding_domain/src/main/java/com/example/onboarding_domain/use_case/ValidateNutrients.kt,9\1\9130ab0504bad1cfb713516d63de1a84fd32eaa3
-d
-4app/src/main/java/com/example/calory/MainActivity.kt,5\9\596441c6da865bdb0d57937a3ae7dec57ba615bc
 ¨
 xonboarding/onboarding_presentation/src/main/java/com/example/onboarding_presentation/nutrient_goal/NutrientGoalScreen.kt,2\5\258e8ac155ea20b1674667a29297eebaf7260357
 ›
@@ -278,3 +270,17 @@ Vtracker/tracker_domain/src/main/java/com/example/tracker_domain/TrackerDomainMo
 [tracker/tracker_domain/src/main/java/com/example/tracker_domain/use_case/TrackerUseCases.kt,c\a\cad3a40611611376b71450916b6d797303f498ec
 …
 Utracker/tracker_domain/src/main/java/com/example/tracker_domain/use_case/TrackFood.kt,2\2\22cdd3dde3686137ba2e9e12e1875781ca36f6a9
+d
+4app/src/main/java/com/example/calory/di/AppModule.kt,b\c\bc2ae57f8f975ada8b53de510b8779634dfee4e1
+x
+Hcore/core_base/src/main/java/com/example/core_base/DefaultPreferences.kt,0\6\06c4bb4794e2067db073b52a10001297cae733b7
+”
+dtracker/tracker_presentation/src/main/java/com/example/tracker_presentation/tracker_overview/Meal.kt,5\9\59406669fad5738584f307584ad6fc6ce67638ff
+}
+Mcore/core_base/src/main/java/com/example/core_base/preferences/Preferences.kt,1\c\1c8531bdd8500f572866dcb026c99c70e1cb2f94
+¤
+ttracker/tracker_presentation/src/main/java/com/example/tracker_presentation/tracker_overview/TrackerOverviewEvent.kt,d\6\d65cf3c16f5333d635d886e18c82ead06cf862b9
+¤
+ttracker/tracker_presentation/src/main/java/com/example/tracker_presentation/tracker_overview/TrackerOverviewState.kt,e\0\e03379574a8730546b2e986e088dc4b18c2ca5d1
+l
+<core/core_ui/src/main/java/com/example/core_ui/Dimensions.kt,d\d\dd6abbadbcf9f03dc76b7498f0819ab8d456525e
