@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Project/2022/JULY/upo/calory/core/core_base/src/main/res/drawable/ic_burger.xml" value="0.1" />
         <entry key="..\:/Android Project/2022/JULY/upo/calory/tracker/tracker_presentation/src/main/res/drawable/ic_breakfast.xml" value="0.1" />
+        <entry key="..\:/Android Project/2022/JULY/upo/calory/tracker/tracker_presentation/src/main/res/drawable/ic_burger.xml" value="0.1" />
         <entry key="..\:/Android Project/2022/JULY/upo/calory/tracker/tracker_presentation/src/main/res/drawable/ic_dinner.xml" value="0.1" />
         <entry key="..\:/Android Project/2022/JULY/upo/calory/tracker/tracker_presentation/src/main/res/drawable/ic_lunch.xml" value="0.1" />
         <entry key="..\:/Android Project/2022/JULY/upo/calory/tracker/tracker_presentation/src/main/res/drawable/ic_snack.xml" value="0.1" />
