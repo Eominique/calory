@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.MaterialTheme
@@ -43,7 +44,8 @@ fun SearchTextField(
     Box(
         modifier = modifier
     ) {
-        BasicTextField(value = text,
+        BasicTextField(
+            value = text,
             onValueChange = onValueChange,
             singleLine = true,
             keyboardActions = KeyboardActions(
@@ -51,6 +53,9 @@ fun SearchTextField(
                     onSearch()
                     defaultKeyboardAction(ImeAction.Search)
                 }
+            ),
+            keyboardOptions = KeyboardOptions(
+             imeAction = ImeAction.Search
             ),
             modifier = Modifier
                 .clip(RoundedCornerShape(5.dp))

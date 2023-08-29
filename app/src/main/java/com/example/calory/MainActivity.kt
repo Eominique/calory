@@ -20,6 +20,7 @@ import androidx.navigation.navArgument
 import com.example.calory.navigation.navigate
 import com.example.calory.ui.theme.CaloryTheme
 import com.example.core_base.navigation.Route
+import com.example.core_base.preferences.Preferences
 import com.example.onboarding_presentation.activity.ActivityScreen
 import com.example.onboarding_presentation.age.AgeScreen
 import com.example.onboarding_presentation.gender.GenderScreen
@@ -31,11 +32,20 @@ import com.example.onboarding_presentation.welcome.WelcomeScreen
 import com.example.tracker_presentation.search.SearchScreen
 import com.example.tracker_presentation.tracker_overview.TrackerOverviewScreen
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+
+    @Inject
+    lateinit var preferences: Preferences
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val shouldShowOnboarding = preferences.loadShouldShowOnboarding()
+
+
         setContent {
             CaloryTheme {
                 val navController = rememberNavController()
@@ -46,7 +56,11 @@ class MainActivity : ComponentActivity() {
                 ) {
                     NavHost(
                         navController = navController,
-                        startDestination = Route.WELCOME
+                        startDestination = if (shouldShowOnboarding) {
+                            Route.WELCOME
+                        } else {
+                            Route.TRACKER_OVERVIEW
+                        }
                     ) {
 
                         composable(Route.WELCOME) {
@@ -87,19 +101,20 @@ class MainActivity : ComponentActivity() {
                         }
                         composable(Route.TRACKER_OVERVIEW) {
                             TrackerOverviewScreen(
-                                onNavigate = navController::navigate)
+                                onNavigate = navController::navigate
+                            )
                         }
                         composable(
-                        route = Route.SEARCH + "/{mealName}/{dayOfMonth}/{month}/{year}",
-                        arguments = listOf(
-                            navArgument("mealName"){
-                                type = NavType.StringType
-                            },
-                            navArgument("dayOfMonth"){type = NavType.IntType},
-                            navArgument("month"){type = NavType.IntType},
-                            navArgument("year"){type = NavType.IntType}
+                            route = Route.SEARCH + "/{mealName}/{dayOfMonth}/{month}/{year}",
+                            arguments = listOf(
+                                navArgument("mealName") {
+                                    type = NavType.StringType
+                                },
+                                navArgument("dayOfMonth") { type = NavType.IntType },
+                                navArgument("month") { type = NavType.IntType },
+                                navArgument("year") { type = NavType.IntType }
 
-                        )
+                            )
                         ) {
                             val mealName = it.arguments?.getString("mealName")!!
                             val dayOfMonth = it.arguments?.getInt("dayOfMonth")!!
