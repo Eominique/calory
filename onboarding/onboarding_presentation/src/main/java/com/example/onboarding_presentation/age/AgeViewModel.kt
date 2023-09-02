@@ -42,7 +42,10 @@ fun onNextClick(){
                     UiText.StringResource(com.example.core_base.R.string.error_age_cant_be_empty)
                 )
             )
+            return@launch
         }
+        preferences.saveAge(ageNumber)
+        _uiEvent.send(UiEvent.Success)
     }
 }
 }

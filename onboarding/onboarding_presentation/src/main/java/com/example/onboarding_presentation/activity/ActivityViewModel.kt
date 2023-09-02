@@ -6,7 +6,6 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.core_base.model.ActivityLevel
-import com.example.core_base.navigation.Route
 import com.example.core_base.preferences.Preferences
 import com.example.core_base.util.UiEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -36,7 +35,7 @@ val uiEvent =_uiEvent.receiveAsFlow()
     fun onNextClick() {
         viewModelScope.launch {
             preferences.saveActivityLevel(selectedActivityLevel)
-            _uiEvent.send(UiEvent.Navigate(Route.GOAL))
+            _uiEvent.send(UiEvent.Success)
         }
     }
 

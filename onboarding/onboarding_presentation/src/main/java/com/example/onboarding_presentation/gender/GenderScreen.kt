@@ -21,14 +21,14 @@ import com.example.onboarding_presentation.components.SelectableButton
 
 @Composable
 fun GenderScreen(
-    onNavigate: (UiEvent.Navigate) -> Unit,
+    onNextClick: () -> Unit,
     viewModel: GenderViewModel = hiltViewModel()
 ) {
     val spacing = LocalSpacing.current
     LaunchedEffect(key1 = true) {
         viewModel.uiEvent.collect { event ->
             when (event) {
-                is UiEvent.Navigate -> onNavigate(event)
+                is UiEvent.Success -> onNextClick()
                 else -> Unit
             }
         }
@@ -47,7 +47,7 @@ fun GenderScreen(
                 text = stringResource(id = R.string.whats_your_gender),
                 style = MaterialTheme.typography.h3
             )
-            Spacer(modifier = androidx.compose.ui.Modifier.height(spacing.spaceMedium))
+            Spacer(modifier = Modifier.height(spacing.spaceMedium))
             Row {
                 SelectableButton(
                     text = stringResource(id = R.string.male),
@@ -61,7 +61,7 @@ fun GenderScreen(
                         fontWeight = FontWeight.Normal
                     )
                 )
-                Spacer(modifier = androidx.compose.ui.Modifier.width(spacing.spaceMedium))
+                Spacer(modifier = Modifier.width(spacing.spaceMedium))
                 SelectableButton(
                     text = stringResource(id = R.string.female),
                     isSelected = viewModel.selectedGender is Gender.Female,
